@@ -1,0 +1,22 @@
+public class Exercicio04 {
+
+	public static void main(String[] args) {
+		
+		int num1, num2, num3, num4, div1, div2, div3, div4;
+		
+		num1 = Teclado.lerInt("Informe o primeiro numero: ");
+		num2 = Teclado.lerInt("Informe o segundo numero: ");
+		num3 = Teclado.lerInt("Informe o terceiro numero: ");
+		num4 = Teclado.lerInt("Informe o quarto numero: ");
+		
+		div1 = num1/4;
+		div2 = num2/4;
+		div3 = num3/4;
+		div4 = num4/4;
+		
+		System.out.println("Divisao: " + div1 + "," + div2 + ","+ div3 + "," + div4);
+
+		
+	}
+
+}
